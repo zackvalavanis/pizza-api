@@ -142,14 +142,15 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.3)
-    nokogiri (1.16.7-aarch64-linux)
-      racc (~> 1.4)
     nokogiri (1.16.7-arm64-darwin)
       racc (~> 1.4)
+<<<<<<< HEAD
+=======
     nokogiri (1.16.7-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
+>>>>>>> ccf88c0c8766c7b69c028f189ac4c6ce23af1cc3
     pg (1.5.8)
     psych (5.1.2)
       stringio
@@ -240,10 +241,7 @@ GEM
     zeitwerk (2.6.18)
 
 PLATFORMS
-  aarch64-linux
-  arm64-darwin-22
-  x86_64-darwin-23
-  x86_64-linux
+  arm64-darwin-23
 
 DEPENDENCIES
   bootsnap
@@ -266,4 +264,4 @@ RUBY VERSION
    ruby 3.3.1p55
 
 BUNDLED WITH
-   2.5.18
+   2.3.7
